@@ -10,4 +10,6 @@
 
 #### [Notebook d'exercices](./exercices_recursion.ipynb)
 
+#### [travail personnel](./RECURSIVITE_TRAVAIL_PERSO.ipynb)
+
 #### QCM [entraînement](https://genumsi.inria.fr/qcm.php?h=cf4244c08fa38c7c0e611edfac246f7b)
