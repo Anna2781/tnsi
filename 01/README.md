@@ -8,7 +8,7 @@
 * [exemple5](https://pythontutor.com/visualize.html#code=def%20puiss%28x,n%29%3A%0A%20%20%20%20if%20n%3D%3D0%20%3A%0A%20%20%20%20%20%20%20%20return%201%0A%20%20%20%20if%20n%3D%3D1%20%3A%0A%20%20%20%20%20%20%20%20return%20x%0A%20%20%20%20r%20%3D%20puiss%28x,%20n//2%29%0A%20%20%20%20if%20n%252%3D%3D0%3A%20%0A%20%20%20%20%20%20%20%20return%20r*r%20%0A%20%20%20%20else%20%3A%0A%20%20%20%20%20%20%20%20return%20r%20*%20r%20*x%0A%0Aprint%28puiss%282,12%29%29&cumulative=false&curInstr=1&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false)
 * [exemple6](https://pythontutor.com/visualize.html#code=def%20copy%28a%20%3Aint%20,b%20%3A%20str%29%3A%0A%20%20%20%20if%20a%3D%3D1%3A%0A%20%20%20%20%20%20%20%20return%20b%0A%20%20%20%20else%20%3A%0A%20%20%20%20%20%20%20%20return%20copy%28%20a-1%20,%20b%2Bb%29%0A%0Aprint%28copy%283,'%3F'%29%29&cumulative=false&curInstr=1&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false)
 
-#### [Notebook d'exercices](./exercices_recursion.ipynb)
+#### [Notebook d'exercices](./exercices_recursion.ipynb) => [correction](exercices_recursion.ipynb)
 
 #### [travail personnel](./RECURSIVITE_TRAVAIL_PERSO.ipynb)
 
