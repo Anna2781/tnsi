@@ -10,7 +10,9 @@
 
 ### [COURS](COURS_ProgrammationObjet.ipynb)
 ### [Exercices](FeuilleEXOS_Objets.pdf)
-### [ExoBAC](BAC2022-Exo5-J1ME.pdf)
+### ExoBAC
+* [écrit](BAC2022-Exo5-J1ME.pdf)
+* [pratique](../EP/2022-NSI-05/)
 #### QCM éval [](https://genumsi.inria.fr/qcm.php?h=013994c45fe5c275c85efc89953c8b5e)
 
 
