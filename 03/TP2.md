@@ -1,9 +1,10 @@
-# TP2 : interrogation d'une base de données
+# TP2 : Notion de jointure
 
-Avant de commencer le TP, on pourra relire le [mode d'emploi](https://github.com/thfruchart/tnsi-2020/blob/master/BDD/Chap1/Mode_emploi.md)
-## notion de **jointure**
+Pour ce TP, [ouvrir dans Basthon le notebook exemple](https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/thfruchart/tnsi/main/03/exemple.ipynb&module=https://raw.githubusercontent.com/thfruchart/tnsi/main/03/livres.sql).
 
-#### Comparer les requêtes suivantes : 
+**Un exemple pour commencer**
+
+Comparer les requêtes suivantes : 
 * `SELECT * FROM usager;`
 * `SELECT * FROM emprunt;`
 * `SELECT * FROM usager JOIN emprunt ON usager.code_barre = emprunt.code_barre;`
@@ -30,8 +31,8 @@ Dans l'exemple considéré :
 *  chaque fois qu'un livre est rapporté, il suffit de supprimer  la  ligne correspondante de la table `emprunt`
 
 ### Jointures mutliples
-Si on souhaite pouvoir connaître le titre du livre emprunté par un usager, on peut utiliser une double jointure :
-#### Exécuter maintenant
+Si on souhaite pouvoir connaître le titre du livre emprunté par un usager, on peut utiliser une double jointure :  
+**Exécuter maintenant**
 * `SELECT usager.nom, usager.prenom, livre.titre, emprunt.retour FROM usager JOIN emprunt ON usager.code_barre = emprunt.code_barre JOIN livre ON emprunt.isbn = livre.isbn;`
 
 Dans cette requête, 
