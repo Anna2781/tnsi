@@ -101,9 +101,10 @@ Exemple: pour trouver l'année du livre le plus "ancien" dans la table **livre**
 # Exercice
 Répondre à chaque question en écrivant une requête SQL permettant d'obtenir la réponse.
 
-Une fois la réponse validée, **recopier** la totalité de la requête sur feuille.
+Ecrire chaque requête dans une nouvelle cellule et penser à  **enregistrer** votre travail.
 
-Toutes les questions se réfèrent à la base de données **test** contenant les tables `auteur`, `auteur_de`, `emprunt`, `livre`, `usager`.
+Toutes les questions se réfèrent à la base de données **bibliotheque** contenant les tables `auteur`, `auteur_de`, `emprunt`, `livre`, `usager`.
+![structure](BIBLI-tables.svg)
 
 1. Afficher le nombre de lignes de la table **auteurs**
 2. Afficher le nom de tous les **auteurs** dont le prénom est 'René'
