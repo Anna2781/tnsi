@@ -30,6 +30,8 @@ Dans l'exemple considéré :
 * chaque fois qu'un nouvel emprunt est effectué, il suffit d'ajouter une nouvelle ligne dans la table `emprunt`
 *  chaque fois qu'un livre est rapporté, il suffit de supprimer  la  ligne correspondante de la table `emprunt`
 
+![structure](BIBLI-tables)
+
 ### Jointures mutliples
 Si on souhaite pouvoir connaître le titre du livre emprunté par un usager, on peut utiliser une double jointure :  
 **Exécuter maintenant**
