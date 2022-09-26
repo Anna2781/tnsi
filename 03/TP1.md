@@ -1,11 +1,9 @@
 # TP1 : interroger une base de données: requêtes simples
-Pour commencer, sélectionner la base `test` dans le menu de phpMyAdmin, à gauche. Cette base va nous servir pour l'ensemble du chapitre.
+Pour commencer, [ouvrir dans Basthon le notebook exemple]((https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/thfruchart/tnsi/main/03/exemple.ipynb&module=https://raw.githubusercontent.com/thfruchart/tnsi/main/03/livres.sql)).
 
 
-Pour découvrir l'utilisation d'une base de données, vous allez **saisir des requêtes** : pour cela ouvrez la **Console de requêtes SQL** située tout en bas de l'écran dans phpMyAdmin. Ce que vous aurez à saisir sera présenté de la manière suivante dans ce document :
-* `commande à saisir dans la console de requêtes SQL`
-
-Vous pouvez également utiliser l'onglet SQL, dans lequel une aide syntaxique est fournie. 
+Pour découvrir l'utilisation d'une base de données, vous allez **saisir des requêtes** : pour cela, il suffit de copier-coller le code de la requête dans une cellule de code du notebook. La mise en forme suivante sera utilisée pour les commandes à copier :
+* `commande SQL à saisir dans une cellule`
 
 Tester chacune des requêtes suivantes, et observer le résultat
 ## SELECT
@@ -55,7 +53,7 @@ Comparer l'exécution des commandes suivantes :
 #### Exécuter maintenant : 
 * `SELECT * FROM livre;`
    * combien de livres y a-t-il dans la table "livre" ?
-   * combien sont affichés dans phpMyAdmin ?
+   * pour le savoir, vous pouvez tester :  `SELECT COUNT(*) FROM livre;` 
    
 #### Comparer avec : 
 * `SELECT * FROM livre WHERE annee>=2018;`
