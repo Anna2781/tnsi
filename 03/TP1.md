@@ -1,5 +1,6 @@
 # TP1 : interroger une base de données: requêtes simples
-Pour commencer, [ouvrir dans Basthon le notebook exemple](https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/thfruchart/tnsi/main/03/exemple.ipynb&module=https://raw.githubusercontent.com/thfruchart/tnsi/main/03/livres.sql).
+Pour commencer, [ouvrir dans Basthon le notebook exemple](https://notebook.basthon.fr/sql/?from=https://raw.githubusercontent.com/thfruchart/tnsi/main/03/exemple.ipynb&module=https://raw.githubusercontent.com/thfruchart/tnsi/main/03/livres.sql).
+
 
 
 Pour découvrir l'utilisation d'une base de données, vous allez **saisir des requêtes** : pour cela, il suffit de copier-coller le code de la requête dans une cellule de code du notebook. La mise en forme suivante sera utilisée pour les commandes à copier :
