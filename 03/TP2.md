@@ -55,11 +55,9 @@ Il est possible de préciser la recherche en ajoutant une clause `WHERE`, comme 
 * `SELECT usager.nom, usager.prenom, livre.titre, emprunt.retour FROM usager JOIN emprunt ON usager.code_barre = emprunt.code_barre JOIN livre ON emprunt.isbn = livre.isbn WHERE emprunt.retour='2020-01-01';`
 
 # Exercice 2
-Répondre à chaque question en écrivant une requête SQL permettant d'obtenir la réponse.
+Répondre à chaque question en écrivant, dans une nouvelle cellule, une requête SQL permettant d'obtenir la réponse. Penser à **enregistrer** votre travail.
 
-Une fois la réponse validée, **recopier** la totalité de la requête sur feuille.
-
-Toutes les questions se réfèrent à la base de données **test** contenant les tables `auteur`, `auteur_de`, `emprunt`, `livre`, `usager`.
+Toutes les questions se réfèrent à la base de données **bilbiotheque** contenant les tables `auteur`, `auteur_de`, `emprunt`, `livre`, `usager`.  
 On observera que la table `auteur_de` permet de joindre :
 * un auteur, repéré par son n° :  `a_id`
 * un livre, repéré par son `isbn`
