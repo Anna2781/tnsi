@@ -103,8 +103,7 @@ Répondre à chaque question en écrivant une requête SQL permettant d'obtenir 
 
 Ecrire chaque requête dans une nouvelle cellule et penser à  **enregistrer** votre travail.
 
-Toutes les questions se réfèrent à la base de données **bibliotheque** contenant les tables `auteur`, `auteur_de`, `emprunt`, `livre`, `usager`.
-![structure](BIBLI-tables.svg)
+Toutes les questions se réfèrent à la base de données **bibliotheque** contenant les tables `auteur` et `livre`.
 
 1. Afficher le nombre de lignes de la table **auteurs**
 2. Afficher le nom de tous les **auteurs** dont le prénom est 'René'
