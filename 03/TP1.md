@@ -35,7 +35,7 @@ Comparer l'exécution des commandes suivantes :
 
    * **ORDER BY** accepte deux paramètres : **ASC** (par défaut : ordre croissant) ou **DESC** (ordre décroissant).
 
-** [Question1]() : expliquer l'affichage obtenu avec : **
+**[Question1]() : expliquer l'affichage obtenu avec :**  
 `SELECT nom, prenom FROM usager ORDER BY cp DESC;`
 
 *AIDE* vous pouvez comparer avec `SELECT nom, prenom, cp FROM usager ORDER BY cp DESC;`
