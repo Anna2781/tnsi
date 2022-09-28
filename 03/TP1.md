@@ -1,5 +1,5 @@
 # TP1 : interroger une base de données: requêtes simples
-Pour commencer, [ouvrir dans Basthon le notebook exemple](https://notebook.basthon.fr/sql/?from=https://raw.githubusercontent.com/thfruchart/tnsi/main/03/exemple.ipynb&module=https://raw.githubusercontent.com/thfruchart/tnsi/main/03/livres.sql).
+Pour commencer,[ouvrir dans Basthon le notebook exemple](https://notebook.basthon.fr/?kernel=sql&from=https://raw.githubusercontent.com/thfruchart/tnsi/main/03/exemple.ipynb&module=https://raw.githubusercontent.com/thfruchart/tnsi/main/03/livres.sql)
 
 
 
