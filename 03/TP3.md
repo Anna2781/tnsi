@@ -71,7 +71,7 @@ Remarquer que l'exécution de la requête UPDATE modifie **3** lignes.
 |035184062854281|	978-2742744824|	2020-03-18	|
 |035184062854281|	978-2745989857|	2020-03-18	|
 
-## UPDATE table SET ...
+## UPDATE `table` SET ...
 **-A RETENIR**  
 Syntaxe d'une requête qui **modifie** certaines valeurs dans une (ou plusieurs) ligne(s) :
 
@@ -114,7 +114,7 @@ Pour que Julien puisse emprunter le livre, il faut d'abord que l'emprunt de Val�
 ## 3. Suppression de lignes
 La commande pour supprimer une ou plusieurs lignes d'une table suit la syntaxe : 
 
-## `DELETE FROM nom_de_la_table WHERE condition;`
+## DELETE FROM `table` WHERE condition;
 
 ATTENTION : 
 * une opération de suppression est irréversible ! 
