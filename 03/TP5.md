@@ -14,7 +14,7 @@ Schéma relationnel de la base Zoo  :
    * `sexe` : le sexe (à choisir entre 'M' et 'F' et peut être null aussi),
    * `pseudo` : un pseudo  
    * `commentaire` :  un commentaire éventuel (peut être null).
-3. Une table Personnels qui stocke le personnel du Zoo (soigneur, nettoyeurs…) et contient
+3. Une table **Personnels** qui stocke le personnel du Zoo (soigneur, nettoyeurs…) et contient
 les champs suivants : 
    * `id` : un identifiant (clé primaire), 
    * `nom` : le nom (non null), 
@@ -23,20 +23,20 @@ les champs suivants :
    * `sexe` : le sexe ('H'/'F') 
    * `fonction` : la fonction (le nom d'un métier, non null) 
    * `salaire` : le salaire (nombre réel à 5 chiffres avant la virgule et 2 chiffres après comme 15263,25)
-4. Une table Enclos qui contient les champs suivants : 
+4. Une table **Enclos** qui contient les champs suivants : 
    * `zone` : un identifiant qui correspond à sa position codée sous la d'une lettre et de 2 chiffres (ex : A04) c'est la clé primaire, 
    * `nom` : le nom de l'enclos, 
    * `capacite` : sa capacité maximale d'animaux (non null), 
    * `taille` : sa taille (en m², peut être null),
    * `eau` : un booléen indiquant la présence d'eau ou non 
    * `responsable` :  la référence à un membre du personnel, responsable de l'enclos (clé étrangère).
-5.  Une table Loc_animaux qui stocke la position des animaux. Elle est constituée de 5 champs : 
+5.  Une table **Loc_animaux** qui stocke la position des animaux. Elle est constituée de 5 champs : 
    * `id` : un identifiant numérique (clé primaire), 
    * `animal` : la référence à un animal (clé étrangère)
    * `enclos` : la référence à un enclos (clé étrangère), 
    * `date_arrivee` : la date d'arrivée 
    * `date_sortie` : date de sortie de l'enclos (peut être null si l'animal est encore dans l'enclos).
-6.  Une table Soigneurs qui contient la liste des personnels qui peuvent soigner une race d'animal donnée. La table contient 
+6.  Une table **Soigneurs** qui contient la liste des personnels qui peuvent soigner une race d'animal donnée. La table contient 
    * `id` : un identifiant (clé primaire),
    * `pers` : une référence vers un personnel (clé étrangère)
    * `race` :  une référence vers une race (clé étrangère).
