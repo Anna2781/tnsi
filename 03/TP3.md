@@ -18,7 +18,7 @@ On distingue trois sortes de "modifications" :
 
 ## 1. Modification de certaines lignes
 
-#### Prolonger un emprunt
+**Prolonger un emprunt**
 Exécuter la requête : 
 * `SELECT * FROM emprunt WHERE retour='2020-01-01';`
 
@@ -53,7 +53,7 @@ En effet, nous n'avons modifié qu'une seule ligne de la table emprunt.
 |934701281931582	|978-2371240087	|2020-01-01|
 
 
-#### prolonger tous les emprunts d'un usager
+**prolonger tous les emprunts d'un usager**
 On souhaite prolonger jusqu'au 18 mars 2020 tous les livres empruntés par l'usager dont le code barre est : 035184062854281
 
 Exécuter : 
@@ -71,8 +71,9 @@ Remarquer que l'exécution de la requête UPDATE modifie **3** lignes.
 |035184062854281|	978-2742744824|	2020-03-18	|
 |035184062854281|	978-2745989857|	2020-03-18	|
 
-### A RETENIR
-La syntaxe d'une modification de certaines valeurs dans une (ou plusieurs) ligne(s) :
+## UPDATE table SET ...
+**-A RETENIR**  
+Syntaxe d'une requête qui **modifie** certaines valeurs dans une (ou plusieurs) ligne(s) :
 
 **`UPDATE nom_de_la_table  SET  nom_de_colonne_modifiée1 = valeur1 , nom_de_colonne_modifiée2 = valeur2 WHERE condition;`**
 
@@ -87,7 +88,7 @@ Exécuter :
 Puis vérifier dans la table emprunt que ce nouvel emprunt est ajouté : 
 * `SELECT * FROM emprunt WHERE code_barre='199614051174633';`
 
-### A RETENIR
+## INSERT INTO `table` VALUES ... 
 Syntaxe pour ajouter une nouvelle ligne dans une table : 
 
 **`INSERT INTO nom_de_la_table(colonne1, colonne2...) VALUES (valeur1, valeur2...);`**
@@ -113,7 +114,7 @@ Pour que Julien puisse emprunter le livre, il faut d'abord que l'emprunt de Val�
 ## 3. Suppression de lignes
 La commande pour supprimer une ou plusieurs lignes d'une table suit la syntaxe : 
 
-**`DELETE FROM nom_de_la_table WHERE condition;`**
+## `DELETE FROM nom_de_la_table WHERE condition;`
 
 ATTENTION : 
 * une opération de suppression est irréversible ! 
