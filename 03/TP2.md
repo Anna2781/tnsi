@@ -20,6 +20,7 @@ Comparer les requêtes suivantes :
    * comme la jointure se fait sur deux **tables** différentes, on utilise la notation pointée : `nom_de_la_table.nom_de_la_colonne`
    * de cette manière, on peut faire explicitement référence à la colonne  `code_barre` contenue dans chacune des deux tables `usager` et `emprunt`, sans confusion possible
 
+
 Dans l'exemple considéré : 
 * chaque usager est repéré par un code_barre
 * chaque livre est repéré par un isbn
@@ -31,6 +32,8 @@ Dans l'exemple considéré :
 *  chaque fois qu'un livre est rapporté, il suffit de supprimer  la  ligne correspondante de la table `emprunt`
 
 ![structure](BIBLI-tables.svg)
+**syntaxe à retenir**
+### SELECT ... FROM `table1` JOIN `table2` ON `table1.colA = table2.colB` ;
 
 ### Jointures mutliples
 Si on souhaite pouvoir connaître le titre du livre emprunté par un usager, on peut utiliser une double jointure :  
