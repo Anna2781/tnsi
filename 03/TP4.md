@@ -7,8 +7,7 @@
    * si les valeurs fournies sont "hors domaine", la requête n'est pas exécutée et une erreur est renvoyée
 * lors de la conception d'une base de donnée, il est important de bien choisir le domaine défini pour chaque champ (ou colonne).
 
-## Clé primaire : contrainte d'unicité
-
+## Contrainte d'unicité : clé primaire
 Essayer la requête : 
 * `INSERT INTO auteur VALUES(19, 'Fruchart', 'Thomas');`
 
@@ -36,7 +35,7 @@ Sur la table `auteur_de` la clé primaire est le **couple** de champs (a_id, isb
 
 ![structure](BIBLI-tables.svg)
 
-## Clé étrangère : contrainte de référence
+## Contrainte de référence :  clé étrangère
 **essayer** les requêtes :
 
 * `INSERT INTO emprunt(code_barre, isbn, retour) VALUES ('123456789012345', '978-0199555918', '2020-12-13');`
