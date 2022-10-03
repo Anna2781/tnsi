@@ -93,23 +93,6 @@ Syntaxe pour ajouter une nouvelle ligne dans une table :
 
 **`INSERT INTO nom_de_la_table(colonne1, colonne2...) VALUES (valeur1, valeur2...);`**
 
-Le jour où Valérie MICHEL vient retourner le livre '1984', elle croise Julien DURAND (code-barre 782124241492509) dans la bibliothèque et lui remet ce livre. 
-Julien veut l'emprunter, mais Valérie n'est pas passée à la borne de "retour des livres". 
-
-Essayer la requête : 
-* `INSERT INTO emprunt(code_barre, isbn, retour) VALUES ('782124241492509', '978-0547249643', '2020-12-31');`
-
-Noter l'erreur obtenue : `#1062 - Duplicata du champ '978-0547249643' pour la clef 'PRIMARY'`
-
-Quelques explications s'imposent : 
-* il existe dans la table `emprunt` une **clé primaire** (identifiée par  : 'PRIMARY')
-* cette clé primaire correspond ici au champ (ou colonne):  `isbn`
-* pour chaque ligne de la table, la clé primaire doit permettre d'identifier cette ligne de manière **unique**
-* ici, la clé primaire  `isbn` permet de s'assurer que deux lignes différentes de la table ne peuvent pas avoir un `isbn` identique!
-   * il est donc impossible d'insérer une nouvelle ligne dans la table s'il existe déjà une ligne avec le même isbn
-   * c'est le sens de l'erreur ` Duplicata du champ '978-0547249643'` qui est l'isbn du livre '1984'.
-
-Pour que Julien puisse emprunter le livre, il faut d'abord que l'emprunt de Valérie soit **supprimé** de la table  `emprunt`.
 
 ## 3. Suppression de lignes
 La commande pour supprimer une ou plusieurs lignes d'une table suit la syntaxe : 
@@ -131,49 +114,10 @@ Exécuter :
 Après avoir vérifié que cette condition correspond bien au livre que Valérie vient de rapporter, on peut supprimer la ligne avec : 
 * `DELETE FROM emprunt WHERE isbn='978-0547249643';`
 
-Cela permet ensuite d'ajouter dans la base l'emprunt de ce livre par Julien
+Cela permet ensuite d'ajouter dans la base l'emprunt de ce livre par un autre utilisateur, par exemple Julien :
 * `INSERT INTO emprunt(code_barre, isbn, retour) VALUES ('782124241492509', '978-0547249643', '2020-12-31');`
 
 Cette insertion se fait alors sans provoquer d'erreur.
-
-# Ce que peut vérifier le système de gestion de la base de données
-## Contraintes de domaine
-essayer les requêtes : 
-* `INSERT INTO emprunt(code_barre, isbn, retour) VALUES ('654834075188732', '978-1439142677', '2020-16-12');`
-* `UPDATE livre SET annee='MMXIII' WHERE titre='Dune';`
-
-Ce qui se passe : 
-* A chaque colonne d'une table est associé un **domaine**, qui correspond à
-   * un certain **type** : entier, texte, date
-   * éventuellement une certaine **taille** : nombre de caractères d'un texte, nombre de bits d'un entier, signe d'un entier
-* Lors de chaque insertion, et de chaque modification, ces **contraintes de domaines** sont testées
-   * si les valeurs fournies sont "hors domaine", la requête n'est pas exécutée et une erreur est renvoyée
-* lors de la conception d'une base de donnée, il est important de bien choisir le domaine défini pour chaque champ (ou colonne).
-
-## Clé étrangère
-Exécuter **d'abord**: 
-* `ALTER TABLE emprunt ADD CONSTRAINT fk_code_barre FOREIGN KEY (code_barre) REFERENCES usager(code_barre);`
-
-**Puis** essayer les requêtes :
-
-* `INSERT INTO emprunt(code_barre, isbn, retour) VALUES ('123456789012345', '978-0199555918', '2020-12-13');`
-* `DELETE FROM usager WHERE code_barre='917547585216771';`
-
-Noter les messages d'erreur : 
-
-#1452 - Cannot add or update a child row...  et  #1451 - Cannot delete or update a parent row: 
-
-**a foreign key constraint fails** (test.emprunt, CONSTRAINT fk_code_barre FOREIGN KEY (code_barre) REFERENCES usager (code_barre))
-
-Explication :
-* la présence d'une clé étrangère sur la table `emprunt` impose une restriction lorsqu'on souhaite ajouter, supprimer ou modifier certaines lignes :
-   * si on ajoutait un `emprunt` pour le code-barre 123456789012345...on aurait une incohérence dans la base de données, car ce code-barre ne correspond à aucune ligne dans la table `usager` !
-   * si on supprimait de la table `usager` la ligne dont le code-barre '917547585216771'
-   * alors une ligne de la table `emprunt` contiendrait une **référence** sans correspondance dans la table `usager`
-   * cela reviendrait à supprimer un usager qui n'a pas encore rendu tous les livres empruntés
-* l'ajout d'une clé étrangère permet de sécuriser la suppression ou la modification des données, pour préserver la cohérence des données.
-* on dit qu'une telle clé étrangère assure une **contrainte d'intégrité** de la base de données.
-* lors de la conception d'une base de données, il convient de bien définir les contraintes portant les champs d'une table qui font **référence** à d'autres tables. 
 
 # Exercice 3
 Écrire les requêtes permettant de réaliser les objectifs suivants
