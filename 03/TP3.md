@@ -10,7 +10,7 @@ De manière générale, une fois qu'une base de données est créée, les intitu
 Seules les lignes sont modifiées de façon ordinaire, pour mettre à jour les informatios stockées dans la base.
 
 On distingue trois sortes de "modifications" :
-1. Changer certaines valeurs d'une ligne existante
+1. Modifier certaines valeurs d'une ligne existante
 2. Ajouter une nouvelle ligne dans une table
 3. Supprimer une ou plusieurs lignes d'une table.
 
