@@ -1,4 +1,7 @@
-()[https://www.education.gouv.fr/bo/22/Hebdo36/MENE2227884N.htm]
+[B.O.n°36](https://www.education.gouv.fr/bo/22/Hebdo36/MENE2227884N.htm)
+## « Le sujet comporte trois exercices indépendants les uns des autres, qui permettent d'évaluer les connaissances et compétences des candidats. »
+
+[B.O.n°36](https://www.education.gouv.fr/bo/22/Hebdo36/MENE2226770N.htm)
 
 Lors de l'épreuve terminale dans l'enseignement de spécialité numérique et sciences informatiques, les candidats peuvent être évalués sur les parties suivantes du programme de la classe de terminale :
 
