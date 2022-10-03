@@ -24,11 +24,16 @@ Quelques explications s'imposent :
    * il est également impossible de modifier une valeur du champ à_id` sans tenir compte de la contrainte d'unicité.
 
 Une clé primaire peut être définie par **un ou plusieurs champs** d'une même table.  
-Par exemple, sur la table `auteur_de` la clé primaire est le couple de champs ().
-Cette clé est définie lors de la création de la table :  
-CREATE TABLE auteur_de (a_id INT, isbn CHAR(14) , **PRIMARY KEY (a_id, isbn)** , FOREIGN KEY (isbn) REFERENCES livre(isbn), FOREIGN KEY (a_id) REFERENCES auteur(a_id) )
+**exécuter**  
+`INSERT INTO auteur_de VALUES (113,"978-2253174561");`
 
-INSERT INTO auteur_de VALUES (113,"978-2253174561");
+
+Sur la table `auteur_de` la clé primaire est le **couple** de champs (a_id, isbn).  
+- La valeur de ce couple de champs doit être unique dans toute la table.
+- Cette clé est définie lors de la création de la table :  
+  CREATE TABLE auteur_de (a_id INT, isbn CHAR(14) , **PRIMARY KEY (a_id, isbn)** , FOREIGN KEY (isbn) REFERENCES livre(isbn), FOREIGN KEY (a_id) REFERENCES auteur(a_id) )
+
+
 
 ## Clé étrangère : contrainte de référence
 **essayer** les requêtes :
