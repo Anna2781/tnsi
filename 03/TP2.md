@@ -42,7 +42,7 @@ Dans l'exemple considéré :
 * une fois la jointure créée, on peut sélectionner uniquement certains champs à afficher, comme dans une requête SELECT ordinaire !
 * si on souhaite pouvoir connaître le titre du livre emprunté par un usager, on peut utiliser une double jointure.
 
-### Jointures mutliples
+### Jointures multiples
 **Exécuter maintenant**
 * `SELECT usager.nom, usager.prenom, livre.titre, emprunt.retour FROM usager JOIN emprunt ON usager.code_barre = emprunt.code_barre JOIN livre ON emprunt.isbn = livre.isbn;`
 
