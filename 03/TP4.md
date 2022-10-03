@@ -1,4 +1,4 @@
-# Ce que peut vérifier le système de gestion de la base de données
+# Contraintes garanties par le SGBD (système de gestion de la base de données)
 ## Contraintes de domaine
 * A chaque colonne d'une table est associé un **domaine**, qui correspond à
    * un certain **type** : entier, texte, date
