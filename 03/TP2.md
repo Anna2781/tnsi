@@ -4,6 +4,8 @@ Pour commencer, [ouvrir dans Basthon le notebook exemple](https://notebook.basth
 
 **Un exemple pour commencer**
 
+![structure](BIBLI-tables.svg)
+
 Comparer les requêtes suivantes : 
 * `SELECT * FROM usager;`
 * `SELECT * FROM emprunt;`
@@ -35,7 +37,6 @@ Dans l'exemple considéré :
 * chaque fois qu'un nouvel emprunt est effectué, il suffit d'ajouter une nouvelle ligne dans la table `emprunt`
 *  chaque fois qu'un livre est rapporté, il suffit de supprimer  la  ligne correspondante de la table `emprunt`
 
-![structure](BIBLI-tables.svg)
 
 
 
