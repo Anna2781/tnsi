@@ -71,6 +71,8 @@ On observera que la table `auteur_de` permet de joindre :
 * un auteur, repéré par son n° :  `a_id`
 * un livre, repéré par son `isbn`
 
+![structure](BIBLI-tables.svg)
+
 1. Afficher le nom et le prénom de l'auteur du livre '1984'
 2. Afficher le titre de tous les livres dont l'auteur a pour nom 'Barjavel'
 3. Afficher le titre, le nom et le prénom de l'auteur de tous les livres écrits par quelqu'un dont le prénom est 'René'
