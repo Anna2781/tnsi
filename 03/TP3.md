@@ -7,7 +7,7 @@ Pour commencer, [ouvrir dans Basthon le notebook exemple](https://notebook.basth
 Toutes les modifications présentées dans ce TP portent sur les **lignes** d'une **table**.
 
 De manière générale, une fois qu'une base de données est créée, les intitulés des colonnes des tables (appelés "champs") ne sont plus modifiés. 
-Seules les lignes sont modifiées de façon ordinaire, pour mettre à jour les informatios stockées dans la base.
+Seules les lignes sont modifiées de façon ordinaire, pour mettre à jour les informations stockées dans la base.
 
 On distingue trois sortes de "modifications" :
 1. Modifier certaines valeurs d'une ligne existante
