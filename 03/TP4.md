@@ -32,8 +32,9 @@ Sur la table `auteur_de` la clé primaire est le **couple** de champs (a_id, isb
 - La valeur de ce couple de champs doit être unique dans toute la table.
 - Cette clé est définie lors de la création de la table :  
   CREATE TABLE auteur_de (a_id INT, isbn CHAR(14) , **PRIMARY KEY (a_id, isbn)** , FOREIGN KEY (isbn) REFERENCES livre(isbn), FOREIGN KEY (a_id) REFERENCES auteur(a_id) )
+-   Sur le schéma ci-dessous, le(s) champs dont le nom est souligné forme(nt) la clé primaire de la table.
 
-
+![structure](BIBLI-tables.svg)
 
 ## Clé étrangère : contrainte de référence
 **essayer** les requêtes :
@@ -45,7 +46,7 @@ Remarquer les messages d'erreur :
 
 **`Error: FOREIGN KEY constraint failed`**
 
-![structure](BIBLI-tables.svg)
+
 
 Explication :
 * la présence d'une clé étrangère sur la table `emprunt` impose une restriction lorsqu'on souhaite ajouter, supprimer ou modifier certaines lignes :
@@ -56,3 +57,4 @@ Explication :
 * l'ajout d'une clé étrangère permet de sécuriser la suppression ou la modification des données, pour préserver la cohérence des données.
 * on dit qu'une telle clé étrangère assure une **contrainte d'intégrité** de la base de données.
 * lors de la conception d'une base de données, il convient de bien définir les contraintes portant les champs d'une table qui font **référence** à d'autres tables. 
+* Sur le schéma ci-dessus, une flèche représente une contrainte de référence depuis un champ "clé étrangère" vers sa référence qui est un champ "clé primaire".
