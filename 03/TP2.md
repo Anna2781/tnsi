@@ -37,8 +37,9 @@ Dans l'exemple considéré :
 * chaque fois qu'un nouvel emprunt est effectué, il suffit d'ajouter une nouvelle ligne dans la table `emprunt`
 *  chaque fois qu'un livre est rapporté, il suffit de supprimer  la  ligne correspondante de la table `emprunt`
 
-
-
+**Tester la requête :**
+`SELECT nom, prenom, isbn FROM emprunt JOIN usager ON usager.code_barre = emprunt.code_barre;`  
+* une fois la jointure créée, on peut sélectionner uniquement certains champs à afficher, comme dans une requête SELECT ordinaire !
 
 ### Jointures mutliples
 Si on souhaite pouvoir connaître le titre du livre emprunté par un usager, on peut utiliser une double jointure :  
