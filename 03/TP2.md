@@ -11,6 +11,10 @@ Comparer les requêtes suivantes :
 * `SELECT * FROM emprunt JOIN usager ON usager.code_barre = emprunt.code_barre;`
 
 ## JOIN
+
+**syntaxe à retenir**
+### SELECT ... FROM `table1` JOIN `table2` ON `table1.colA = table2.colB` ;
+
 * la commande `JOIN` sert à "joindre" deux tables.
 * le critère de jointure est une correspondance entre des valeurs contenues dans chacune des tables, ici : `usager.code_barre = emprunt.code_barre`
 * ce critère est introduit par le mot clé `ON`
@@ -32,8 +36,8 @@ Dans l'exemple considéré :
 *  chaque fois qu'un livre est rapporté, il suffit de supprimer  la  ligne correspondante de la table `emprunt`
 
 ![structure](BIBLI-tables.svg)
-**syntaxe à retenir**
-### SELECT ... FROM `table1` JOIN `table2` ON `table1.colA = table2.colB` ;
+
+
 
 ### Jointures mutliples
 Si on souhaite pouvoir connaître le titre du livre emprunté par un usager, on peut utiliser une double jointure :  
