@@ -40,9 +40,9 @@ Dans l'exemple considéré :
 **Tester la requête :**
 `SELECT nom, prenom, isbn FROM emprunt JOIN usager ON usager.code_barre = emprunt.code_barre;`  
 * une fois la jointure créée, on peut sélectionner uniquement certains champs à afficher, comme dans une requête SELECT ordinaire !
+* si on souhaite pouvoir connaître le titre du livre emprunté par un usager, on peut utiliser une double jointure.
 
 ### Jointures mutliples
-Si on souhaite pouvoir connaître le titre du livre emprunté par un usager, on peut utiliser une double jointure :  
 **Exécuter maintenant**
 * `SELECT usager.nom, usager.prenom, livre.titre, emprunt.retour FROM usager JOIN emprunt ON usager.code_barre = emprunt.code_barre JOIN livre ON emprunt.isbn = livre.isbn;`
 
