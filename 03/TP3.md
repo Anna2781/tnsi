@@ -18,7 +18,7 @@ On distingue trois sortes de "modifications" :
 
 ## 1. Modification de certaines lignes
 
-**Prolonger un emprunt**
+**Prolonger un emprunt**  
 Exécuter la requête : 
 * `SELECT * FROM emprunt WHERE retour='2020-01-01';`
 
