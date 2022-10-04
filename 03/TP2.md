@@ -81,3 +81,4 @@ On observera que la table `auteur_de` permet de joindre :
 6. Même requête que la précédente, en supprimant les doublons
 7. Même requête que la précédent, en affichant les noms triés par ordre alphabétique 
 8. Afficher le nom et le prénom de tous les usagers habitant le 5ème arrondissement (code postal = 75005) ayant emprunté un livre : on fera également afficher le titre du livre et la date de retour prévue. 
+9. BONUS : afficher la liste des livres empruntés, en précisant le nom de l'usager qui l'a emprunté, ainsi que le nom de l'auteur et le titre du livre !
