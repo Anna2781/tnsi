@@ -6,3 +6,6 @@
 * [Récursivité](./01)
 * [Programmation Objet](./02)
 * [Base de données](03)
+
+#### mini projet
+- de multiples en diviseurs
