@@ -91,7 +91,12 @@ Puis vérifier dans la table emprunt que ce nouvel emprunt est ajouté :
 ## INSERT INTO `table` VALUES ... 
 Syntaxe pour ajouter une nouvelle ligne dans une table : 
 
-**`INSERT INTO nom_de_la_table(colonne1, colonne2...) VALUES (valeur1, valeur2...);`**
+**`INSERT INTO nom_de_la_table VALUES (valeur1, valeur2...);`**  
+Les valeurs sont à écrire dans l'ordre des champs de la table.  
+
+Remarque : on peut aussi utiliser la syntaxe suivante :  
+`INSERT INTO nom_de_la_table(colonne1, colonne2...) VALUES (valeur1, valeur2...);`  
+C'est utile lorsque certaines valeurs sont laissées vides (`NULL` en SQL).
 
 
 ## 3. Suppression de lignes
