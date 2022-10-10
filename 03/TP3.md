@@ -71,7 +71,7 @@ Remarquer que l'exécution de la requête UPDATE modifie **3** lignes.
 |035184062854281|	978-2742744824|	2020-03-18	|
 |035184062854281|	978-2745989857|	2020-03-18	|
 
-## UPDATE `table` SET ...
+## UPDATE `table` SET ... WHERE ...
 **-A RETENIR**  
 Syntaxe d'une requête qui **modifie** certaines valeurs dans une (ou plusieurs) ligne(s) :
 
