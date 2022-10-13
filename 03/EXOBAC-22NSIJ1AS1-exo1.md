@@ -3,3 +3,12 @@
 5. `SELECT nom, prenom FROM Patientes WHERE Commune="Aigrefeuille d'Aunis";`
 6. `SELECT AVG(poids) FROM Naissances JOIN TypesAccouchement ON  TypesAccouchement.idAcc = Naissances.acc
     WHERE TypesAccouchement.libelleAcc='césarienne';` 
+7. On obtient l'affichage suivant : 
+
+```nom    prenom
+Berthlot  Michelle
+Samson    Marine
+Baugé     Gaëlle
+Baugé     Gaëlle
+```
+
