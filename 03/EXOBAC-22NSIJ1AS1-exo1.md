@@ -4,8 +4,8 @@
 6. `SELECT AVG(poids) FROM Naissances JOIN TypesAccouchement ON  TypesAccouchement.idAcc = Naissances.acc
     WHERE TypesAccouchement.libelleAcc='césarienne';` 
 7. On obtient l'affichage suivant : 
-
-```nom    prenom
+```
+nom    prenom
 Berthlot  Michelle
 Samson    Marine
 Baugé     Gaëlle
