@@ -21,7 +21,7 @@ Essayer la requête :
 **Basthon** ne renvoie pas d'erreur, mais ne traite que le premier des deux noms
 
 Effectivement, la sous requête : 
-* `(SELECT nom FROM auteur JOIN auteur_de ON auteur.a_id = auteur_de.a_id JOIN livre ON auteur_de.isbn = livre.isbn WHERE livre.titre= "Le Devin");`
+* `SELECT nom FROM auteur JOIN auteur_de ON auteur.a_id = auteur_de.a_id JOIN livre ON auteur_de.isbn = livre.isbn WHERE livre.titre= "Le Devin";`
 
 renvoie deux lignes, avec les noms de deux auteurs Uderzo et Goscini.
 
