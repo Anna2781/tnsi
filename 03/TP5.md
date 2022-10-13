@@ -1,4 +1,5 @@
 # TP5 : requête et sous-requête
+Pour commencer, [ouvrir dans Basthon le notebook exemple](https://notebook.basthon.fr/?kernel=sql&from=https://raw.githubusercontent.com/thfruchart/tnsi/main/03/exemple.ipynb&module=https://raw.githubusercontent.com/thfruchart/tnsi/main/03/livres.sql)
 
 ### Exemple 1 : trouver tous les titres du même auteur que "Guerre et Paix"
 On peut utiliser une première requête pour trouver le nom de l'auteur
