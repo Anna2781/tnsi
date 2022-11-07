@@ -7,6 +7,7 @@
 
 ## Cours
 * [vocabulaire relationnel](COURS1-VOCABULAIRE-RELATION.pdf)
+* [contraintes d'intégrité](COURS2-CONTRAINTES-SQL.pdf)
 
 #### Exercices sur papier
   - requêtes d'interrogation : [énoncé](SQL-SELECT.pdf) + [notebook](https://notebook.basthon.fr/?kernel=sql&ipynb=eJylkk1uwjAQha9imUVBmgUJPylhBVUWSIgKCN0UhEzsIkRi08RRoYgL9CY9BxerjU0hqKyazYyfZ743E3mPIxbHGfZf9zhhklAiCfb3Bzjpc7nbMOzjhKRrKj44BpyJPI20ViqVUJdkLEOUISo4P36r3EejYDg5foXBGNGHFZcsTcWSyJXg-AAFDyzTPJOMYl8l7MYxEpRduz2Ngk4YoLDT7QdoWyYI9QYhTDkqfouTPuWV9pQXWnbl6E4LvdfyedflHopdoaa8NxgHo1Arz2iLXjr9ifonZQecCqCyC64ONRPqJjTMXRNaOnjq1C5idr-YlqlxquBUT4ljBQU2Qg1qJqnbG0t3mucWTyc3Dp_XgzoW4YKB6AEtRfV6UDthFAUatq4Fj7ZBl5oNtU_LbKm9z5tW7aDuxceD87CeIqnKtnoCbMuiXL-feSRyLrHvAha53ORSv9rZfx7VX3Sex3HRYAYFgzVLOYuzDYv0iZNEk7L3WMHoKtvEZDe34njYV2JM-DIny3PVQc3EF28iTYhyq18O82TFRarWO_wAG6j4og) => [corrigé](https://github.com/thfruchart/tnsi/blob/main/03/SQL-Select_CORRECTION.ipynb)
