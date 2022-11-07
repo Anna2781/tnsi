@@ -52,11 +52,7 @@ Bien garder en mémoire la structure :  `SELECT ... FROM ... [JOIN... ON ...] WH
 
 
 Pour chacune des questions ci-dessous, écrire **une** requête SQL en ligne de commande:
-* utiliser un éditeur (comme NotePad++ pour écrire votre "brouillon")
-* tester la requête en ligne de commande
-* corriger éventuellement la requête jusqu'à ce qu'elle soit correcte.
-   * En ligne de commande, on peut utiliser `SHOW Tables ;` pour obtenir le nom des tables 
-   * `DESCRIBE nom_table;` pour la description de tous les champs d'une table.
+* [ouvrir dans Basthon le notebook Zoo](https://notebook.basthon.fr/?kernel=sql&from=https://raw.githubusercontent.com/thfruchart/tnsi/main/03/exemple.ipynb&module=https://raw.githubusercontent.com/thfruchart/tnsi/main/03/Zoo.sql)
 
 # Questions
 1. Combien y a-t-il d'animaux dans le zoo?
