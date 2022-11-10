@@ -7,3 +7,7 @@
 
 ### COURS
 * [8 nov](COURS-2022-11-08.ipynb)
+
+### QCM
+* [entraînement](https://genumsi.inria.fr/qcm.php?h=a4f4eafe34bd58c711e28d217e71409a)
+* [évaluation]
