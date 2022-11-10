@@ -1,6 +1,6 @@
 # Epreuve pratique
 
-* [rappels sur les dictionnaires](https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/thfruchart/tnsi/main/EP/DicoRappels.ipynb)
+* [rappels sur les dictionnaires](https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/thfruchart/tnsi/main/EP/DicoRappels.ipynb) => [document complété](https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/thfruchart/tnsi/main/EP/DicoRappelsCOMPLET.ipynb)
 
 
 #### Quelques sujets pour s'exercer.  
