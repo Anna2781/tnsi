@@ -7,6 +7,7 @@
 
 ### COURS
 * [8 nov](COURS-2022-11-08.ipynb)
+* [cours complet](COURS-complet.ipynb)
 
 ### Exercices
 * [exo5](https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/thfruchart/tnsi/main/04/exo5.ipynb)
