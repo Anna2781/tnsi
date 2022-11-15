@@ -10,9 +10,9 @@
 * [cours complet](COURS-complet.ipynb)
 
 ### Exercices
-* [exo5](https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/thfruchart/tnsi/main/04/exo5.ipynb)
-* [exo6](https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/thfruchart/tnsi/main/04/exo6.ipynb)
-* [exo7](https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/thfruchart/tnsi/main/04/exo7.ipynb)
+* [exo5](https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/thfruchart/tnsi/main/04/exo5.ipynb) =>   [correction](https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/thfruchart/tnsi/main/04/Exo5-correction.ipynb)
+* [exo6](https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/thfruchart/tnsi/main/04/exo6.ipynb) =>  [correction](https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/thfruchart/tnsi/main/04/Exo6-correction.ipynb)
+* [exo7](https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/thfruchart/tnsi/main/04/exo7.ipynb) =>   [correction](https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/thfruchart/tnsi/main/04/Exo7-correction.ipynb)
 
 ### QCM
 * [entraînement](https://genumsi.inria.fr/qcm.php?h=a4f4eafe34bd58c711e28d217e71409a)
