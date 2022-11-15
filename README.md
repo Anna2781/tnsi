@@ -7,6 +7,7 @@
 * [Programmation Objet](./02)
 * [Base de données](03)
 * [Structures linéaires](04)
+* [Gestion des processus](045
 
 #### mini projet
 - [de multiples en diviseurs](https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/thfruchart/tnsi/main/proj/MultiDiv-projet.ipynb)
