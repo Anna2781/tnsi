@@ -1,2 +1,2 @@
 # Corrigés
-* [DS1](DS1_CORR.ipynb)
+* DS1[](https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/thfruchart/tnsi/main/eval/DS1_CORR.ipynb)
