@@ -4,7 +4,6 @@ Dans le routage dynamique :
 * les algorithmes de mise à jour des tables sont exécutés par chaque routeur en permanence. 
 * pour déterminer quelle route un paquet va suivre, le routeur se base sur une distance, aussi appelée coût ou **métrique**.
 * dans le protocole RIP, la métrique utilisée est le nombre de sauts entre routeurs (*hop* en anglais)
-* les routeurs s'échangent régulièrement des messages pour refléter l'état du réseau. 
 
 
 ### protocole RIP
