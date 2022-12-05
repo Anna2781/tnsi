@@ -9,7 +9,7 @@ Le *routage statique* consiste à **fixer la table de routage** de chaque routeu
 
 |destination|passerelle|interface|
 |:----------|:---------|:--------|
-|IP de destination|IP où est envoyé le paquet |depuis l'une des adresses du routeur|
+|IP de destination|IP où envoyer le paquet à l'étape suivante |depuis l'une des adresses du routeur|
 |(éventuellement distante)|(adresse d'un des routeurs voisins)|(nom de l'interface ou adresse IP)|
 
 
