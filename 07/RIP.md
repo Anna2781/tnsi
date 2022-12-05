@@ -11,8 +11,8 @@ Dans le routage dynamique :
 
 Le protocole  RIP est un protocole crée en 1983, par l’université de Californie, d'après des travaux de Bellman et Ford (1956-58). 
 Dans ce protocole :  
-    * chaque routeur conserve l’adresse des routeurs voisins, et 
-    * il met à jour sa table de routage toutes les 30 secondes (avec une variabilité de +/- 5 secondes) en échangeant des messages avec ses voisins
+* chaque routeur conserve l’adresse des routeurs voisins, et 
+* il met à jour sa table de routage toutes les 30 secondes (avec une variabilité de +/- 5 secondes) en échangeant des messages avec ses voisins
     
  #### échanges entre routeurs
  * Lorsqu'un routeur émetteur E envoie des messages aux routeurs voisins.
