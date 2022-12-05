@@ -17,7 +17,9 @@ Dans ce protocole :
  * Lorsqu'un routeur émetteur E envoie des messages aux routeurs voisins.
  * Le voisin V répond en renvoyant sa table de routage (ou une partie éventuellement)
  * Le routeur E analyse le message de V.
-     * S’il y a une nouvelle route, E l’inscrit dans sa table en ajoutant un saut à la métrique. Le nombre maximal de sauts autorisés est de 15 (une route de plus de 15 sauts ne sera pas rajoutée dans la table).
+     * S’il y a une nouvelle route, E l’inscrit dans sa table en ajoutant un saut à la métrique.  
+     Le nombre maximal de sauts autorisés est de 15  
+     (une route de plus de 15 sauts ne sera pas rajoutée dans la table).
      * Si la route existe déjà dans la table, trois possibilités se présentent.
           * Soit le coût de la nouvelle route est inférieur au coût en mémoire. L’ancienne route est remplacée par la nouvelle
           * Soit le coût est supérieur et l’ancienne route ne passait pas par V. L’information n’a pas d’intérêt et est ignorée.
