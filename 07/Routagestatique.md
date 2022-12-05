@@ -1,9 +1,18 @@
 ## Rôle des protocoles de routage
-Les protocoles de routage servent :
-* d’une part à mettre à jour les tables de routage, 
-* d’autre part à calculer le chemin que doivent prendre les données pour arriver de l’expéditeur au destinataire. 
+Les protocoles de routage servent à calculer le chemin que doivent prendre les données pour arriver de l’expéditeur au destinataire. 
 
-Le *routage statique* consiste à **fixer la table de routage** de chaque routeur (au contraire du routage *dynamique* où les tables de routages sont périodiquement actualisées).   
+Chaque routeur sert à connecter plusieurs réseaux : il possède donc plusieurs cartes réseau, et plusieurs adresses IP (une sur chaque réseau).
+
+Le *routage statique* consiste à **fixer la table de routage** de chaque routeur (au contraire du routage *dynamique* où les tables de routages sont périodiquement actualisées) en indiquant à quelle adresse faire suivre chaque paquet. 
+
+
+
+|destination|passerelle|interface|
+|:----------|:---------|:--------|
+|IP de destination|IP où est envoyé le paquet |depuis l'une des adresses du routeur|
+|(éventuellement distante)|(adresse d'un des routeurs voisins)|(nom de l'interface ou adresse IP)|
+
+
 
 Dans un routeur, l’algorithme général de routage est :
 
