@@ -14,11 +14,9 @@ Le *routage statique* consiste à **fixer la table de routage** de chaque routeu
 
 
 
-Dans un routeur, l’algorithme général de routage est :
-
-**Entrée** : adresse IP,  
-**Traitement** :  
-* Calcul de l’adresse de réseau R (obtenue à partir de IP avec le masque)
+### fonctionnement du routage
+Lorsqu'un routeur reçoit un paquet IP :     
+* Il calcule l’adresse de réseau R de destination (obtenue à partir de l'IP de destination avec le masque)
 * Si  IP est dans la table de routage (on arrive dans le réseau local) :
    * Envoyer le paquet à cette adresse (sans passer par un autre routeur)
 * Sinon si le routeur contient un chemin pour le réseau R :
