@@ -9,6 +9,7 @@
 * [Structures linéaires](04)
 * [Gestion des processus](05)
 * [Pile et Files](06)
+* [Routage](07)
 
 #### mini projet
 - [de multiples en diviseurs](https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/thfruchart/tnsi/main/proj/MultiDiv-projet.ipynb)
