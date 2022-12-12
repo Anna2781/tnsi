@@ -8,7 +8,7 @@ Il est plus complexe que RIP, seules les grandes lignes en seront données.
 * Plus le débit est élevé, moindre est le coût de la métrique.  
 * En pratique on prend comme métrique un quotient de la forme : $10^n / débit$
 
-### échanges entre routeurs : "flooding"
+#### échanges entre routeurs : "flooding"
 * Un routeur E envoie des messages « Hello » à tous ses voisins. Ces messages contiennent son identificateur, ainsi que les identificateurs des voisins déjà connus. 
 * Les voisins répondent par un message qui peut être de deux types. 
    * Si le routeur E est déjà connu, le message sera un simple accusé de réception. 
@@ -17,3 +17,16 @@ Il est plus complexe que RIP, seules les grandes lignes en seront données.
 
 Après plusieurs messages LSA, tous les routeurs de la zone connaissent la topologie du réseau.  
 Cette étape est la diffusion/« inondation » (flooding) de messages dans tout le réseau. 
+
+#### calcul des routes
+Une fois transmises les informations sur la topologie du réseau, chaque routeur exécute un algorithme de "plus court chemin" pour déterminer sa table de routage.  
+L'algorithme utilisé est celui de Dijkstra, dont un exemple sera présenté en TP.
+
+### Avantages d'OSPF
+* Diffusion moins fréquente des messages entre routeur qu'avec RIP
+* Un changement sur le réseau est transmis rapidement
+* Permet d'obtenir une route optimale en "temps de transmission", ce que ne fait pas RIP.
+
+#### inconvénients
+* Nécessite des routeurs puissants pour le calcul et la mémorisation des chemins minimaux.
+* Ne s’adapte pas à la charge des liens : une route "rapide" peut parfois être surchargée (penser aux bouchons sur autoroute).
