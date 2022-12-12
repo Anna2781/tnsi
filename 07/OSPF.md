@@ -41,5 +41,6 @@ L'algorithme utilisé est celui de Dijkstra, dont un exemple sera présenté en 
 * Permet d'obtenir une route optimale en "temps de transmission", ce que ne fait pas RIP.
 
 #### inconvénients
+* Plus complexe à mettre en place que RIP.
 * Nécessite des routeurs puissants pour le calcul et la mémorisation des chemins minimaux.
 * Ne s’adapte pas à la charge des liens : une route "rapide" peut parfois être surchargée (penser aux bouchons sur autoroute).
