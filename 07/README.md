@@ -6,3 +6,4 @@
 3. [Routage dynamique avec OSPF]()
 
 * [Exercices](EXOS_routage.pdf)
+#### [ExoBac](Exo-bac2021.pdf)
