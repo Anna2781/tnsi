@@ -33,7 +33,7 @@ Cette étape est la diffusion/« inondation » (flooding) de messages dans tou
 
 #### calcul des routes
 Une fois transmises les informations sur la topologie du réseau, chaque routeur exécute un algorithme de "plus court chemin" pour déterminer sa table de routage.  Cela renvient à minimiser la somme des coûts de toutes les liaisons empruntées jusqu'à une destination. 
-L'algorithme utilisé est celui de Dijkstra, dont un exemple sera présenté en TP.
+L'algorithme utilisé est celui de Dijkstra.
 
 ### Avantages d'OSPF
 * Diffusion moins fréquente des messages entre routeur qu'avec RIP
