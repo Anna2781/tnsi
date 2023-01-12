@@ -12,5 +12,6 @@
 * [sujetC](22-NSI-05/)
 * [sujetD](22-NSI-25/)
 * [sujetE](SujetE/)
-* [**sujetF**](SujetF/)
-* [**sujetG**](SujetG/)
+* [sujetF](SujetF/)
+* [sujetG](SujetG/)
+* [**sujetH**](SujetH/)
