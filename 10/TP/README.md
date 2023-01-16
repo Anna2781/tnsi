@@ -18,7 +18,7 @@
    * visualiser le fichier `decoupage.jpg`
    * comprendre ce que fait ce programme
 * procéder de même avec le fichier `decoupe-image2.py`
-* écrire une fonction récursive `def rotation_aux(px, x, y, t)` qui:
+* **écrire une fonction récursive `def rotation_aux(px, x, y, t)` qui:**
    * prend en arguments
       * un tableau de pixelx `px`
       * des coordonnées entières `x`, `y`
