@@ -42,7 +42,7 @@ Il en reste à compléter :
 * La vitesse est également un vecteur aléatoire, qui ne doit pas être nul. Chaque coordonnée de la vitesse est un nombre flottant compris entre -1 et 1, sachant que les deux coordonnées ne peuvent pas
 être nulles en même temps. La vitesse générée initialement est transformée de manière à avoir la
 norme de la vitesse initiale, on calcule
-$\vec v = \vec v_{aléatoire} \times \frac{v\_{init}}{\| \vec v_{aléatoire} \|}$
+$\vec v = \vec v_{aléatoire} \times \frac{v\_{init}}{\|\| \vec v_{aléatoire} \|\|}$
   * On rappelle que random.random() renvoie un nombre flottant aléatoire entre 0 et 1.
   * Cette classe contient des attributs de classe. Ces attributs sont identiques pour toutes les instances de la classe, on ne les modifie pas. Ils sont déclarés avant le constructeur.
 
@@ -64,7 +64,7 @@ Ecrire la méthode `maj_position()`, qui :
    * il est possible de tester le code en exécutant l'interface graphique fournie dans le fichier `gui_animal_aleatoire.py`
 2. vérifie que la vitesse n’est pas supérieure à la vitesse maximale autorisée. Si c’est le cas, on
 limitera cette vitesse en calculant 
-$\vec v = \vec v \times \frac{v\_{max}}{\| \vec v \|}$
+$\vec v = \vec v \times \frac{v\_{max}}{\|\| \vec v \|\|}$
    * penser à tester le code
 3. empêche l'animal de sortir de l'univers en programmant un "rebond" :
    * lorsque l'animal arrive à l'un des  bords, l'une des coordonnées de sa vitesse et de son accélération (ou force) doit changer de signe!
