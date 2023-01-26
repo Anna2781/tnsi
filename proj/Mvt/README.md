@@ -42,7 +42,7 @@ Il en reste à compléter :
 * La vitesse est également un vecteur aléatoire, qui ne doit pas être nul. Chaque coordonnée de la vitesse est un nombre flottant compris entre -1 et 1, sachant que les deux coordonnées ne peuvent pas
 être nulles en même temps. La vitesse générée initialement est transformée de manière à avoir la
 norme de la vitesse initiale, on calcule
-$\vec v = \vec v_{aléatoire} \times \frac{v\_init}{\| \vec v_{aléatoire} \|}$
+$\vec v = \vec v_{aléatoire} \times \frac{v\_{init}}{\| \vec v_{aléatoire} \|}$
   * On rappelle que random.random() renvoie un nombre flottant aléatoire entre 0 et 1.
   * Cette classe contient des attributs de classe. Ces attributs sont identiques pour toutes les instances de la classe, on ne les modifie pas. Ils sont déclarés avant le constructeur.
 
@@ -50,9 +50,9 @@ $\vec v = \vec v_{aléatoire} \times \frac{v\_init}{\| \vec v_{aléatoire} \|}$
 #### (1) L’explication théorique.
 On raisonne de manière discrète, par modification de la position à chaque tick d’horloge.
 Un animal va passer de la position $A_n$ , à l’instant n, à la position 
-$A_{n+1}  , à l’instant n + 1, grâce à
+$A_{n+1}$  , à l’instant n + 1, grâce à
 sa vitesse $\vec v_ n$ : 
-on a : $ \overrightarrow{OA_{n+1}} = \overrightarrow{OA_n} + \vec v_n$ .  
+on a : $\overrightarrow{OA_{n+1}} = \overrightarrow{OA_n} + \vec v_n$ .  
 
 De même, la vitesse est modifiée à chaque tick par la force (assimilée avec l’accélération) qui lui est
 appliquée. 
