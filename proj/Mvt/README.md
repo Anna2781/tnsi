@@ -64,7 +64,7 @@ Ecrire la méthode `maj_position()`, qui :
    * il est possible de tester le code en exécutant l'interface graphique fournie dans le fichier `gui_animal_aleatoire.py`
 2. vérifie que la vitesse n’est pas supérieure à la vitesse maximale autorisée. Si c’est le cas, on
 limitera cette vitesse en calculant 
-$\vec v = \vec v \times \frac{v\_max}{\| \vec v \|}$
+$\vec v = \vec v \times \frac{v\_{max}}{\| \vec v \|}$
    * penser à tester le code
 3. empêche l'animal de sortir de l'univers en programmant un "rebond" :
    * lorsque l'animal arrive à l'un des  bords, l'une des coordonnées de sa vitesse et de son accélération (ou force) doit changer de signe!
