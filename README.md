@@ -12,6 +12,8 @@
 * [Routage](07)
 * [Arbres binaires](08)
 * [Arbres binaires de recherche](09)
+* [Méthode : diviser régner](10)
+* [Sécurisation des communications](11)
 
 #### mini projet
 - [de multiples en diviseurs](https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/thfruchart/tnsi/main/proj/MultiDiv-projet.ipynb)
