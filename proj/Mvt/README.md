@@ -80,4 +80,12 @@ Simple à programmer avec les coordonnées. Il est déconseillé d’utiliser la
 ## 3. La classe Nuee
 
 Cette classe représente un groupe d’animaux. 
-Elle est définie dans `classe_nuee.py`.
+Elle est définie dans `classe_nuee.py`, et une interface graphique permet de tester le code : `gui_nuee.py`.  
+
+### a. Compléter le constructeur de la classe.
+Il s'agit de compléter le constructeur, en remplissant l'attribut  `essaim` avec le `nombre` d'animaux passé en paramètre. 
+### b. Compléter la méthode `mouvement`
+* Cette méthode met à jour la position de tous les animaux d'un essaim.  
+   * Elle fait appel à une méthode de la classe Animal. 
+* Tester le code avec l'interface graphique.
+
