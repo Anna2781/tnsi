@@ -91,10 +91,16 @@ Il s'agit de compléter le constructeur, en remplissant l'attribut  `essaim` ave
 
 ### c. Compléter la méthode `voisins_update`
 * Cette méthode permet de mettre à jour les attributs suivants d'un objet de la classe Nuee : 
-   * voisins_separation
-   * voisins_alignement
-   * voisins_cohesion
-* Pour chacun de ces tableaux, les animaux voisins de l'animal d'indice 'i' ont leur indice stocké dans voisins[i]
+   * voisins_proches :  tableau de tableaux tel que voisin_proches[i] contient
+            la liste de tous les indices des animaux "proches" de l'animal d'indice 'i',
+            c'est-à-dire à une distance inférieure à à l'attribut animal.perception[0] 
+   * voisins_moyens : tableau de tableaux tel que voisin_moyens[i] contient
+            la liste de tous les indices des animaux "moyennement proches" de l'animal d'indice 'i',
+            c'est-à-dire à une distance inférieure à l'attribut animal.perception[1]
+   * voisins_distants :  tableau de tableaux tel que voisin_distants[i] contient
+            la liste de tous les indices des animaux "distants" de l'animal d'indice 'i',
+            c'est-à-dire à une distance inférieure à l'attribut animal.perception[2]
+* Pour chacun de ces tableaux, les animaux voisins de l'animal d'indice `i` ont leur indice stocké dans `voisins[i]`
    * l'animal d'indice  `i` n'est pas considéré comme son propre voisin.
    * le code fera appel à la méthode `distance` de la classe Animal.
 * Tester le code avec l'interface graphique.
