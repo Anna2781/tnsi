@@ -13,8 +13,8 @@ from math import sqrt, cos, sin, pi, asin, acos
 from classe_animal import *
  
 
-LARGEUR_FENETRE = 1000
-HAUTEUR_FENETRE = 1000
+LARGEUR_FENETRE = 1300
+HAUTEUR_FENETRE = 700
 RAFRAICHISSEMENT = 0.01
 
 
@@ -31,7 +31,12 @@ def animate_ball(animal):
     
     while True :
         animal.maj_position()        
-        canvas.move(sprite, animal.vitesse.x , animal.vitesse.y)   
+        #canvas.move(sprite, animal.vitesse.x , animal.vitesse.y)   
+        canvas.coords(sprite, 
+            animal.position.x - taille,
+            animal.position.y - taille,
+            animal.position.x + taille,
+            animal.position.y + taille)
         Window.update()
         time.sleep(RAFRAICHISSEMENT)
 
