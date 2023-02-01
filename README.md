@@ -17,3 +17,7 @@
 
 #### mini projet
 - [de multiples en diviseurs](https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/thfruchart/tnsi/main/proj/MultiDiv-projet.ipynb)
+- [Mouvement de masse](proj/Mvt)
+
+#### Sujets d'annales
+* (2022-Amérique du Nord - jour1)[https://fabricenativel.github.io/officiels/Annales/EE/2022/22-NSIJ1AN1.pdf]
