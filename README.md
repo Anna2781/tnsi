@@ -20,4 +20,4 @@
 - [Mouvement de masse](proj/Mvt)
 
 #### Sujets d'annales
-* (2022-Amérique du Nord - jour1)[https://fabricenativel.github.io/officiels/Annales/EE/2022/22-NSIJ1AN1.pdf]
+* [2022-Amérique du Nord - jour1](https://fabricenativel.github.io/officiels/Annales/EE/2022/22-NSIJ1AN1.pdf)
