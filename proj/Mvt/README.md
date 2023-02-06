@@ -106,6 +106,23 @@ Il s'agit de compléter le constructeur, en remplissant l'attribut  `essaim` ave
 * Tester le code avec l'interface graphique.
    * on peut visualiser les voisins de l'animal d'indice 0 en définissant le booléen `AFFICHE_VOISINS` à `True`
 
+### d. gérer le mouvement d'ensemble de la nuée
+#### (1) programmer la méthode ̀separation` :
+* cette méthode renvoie un vecteur représentant une force permettant aux animaux trop proches d'éviter une collision
+* la méthode `regles` applique un animal (défini par son indice) la/les règle(s) qui le concerne : dans un premier temps, on peut se limiter à la règle de séparation, et donc mettre à 0 les paramètres `align` et `coh`. Dans la suite du projet, on pourra ajuster les forces exercées selon les différentes règles en modifiant les valeurs des paramètre de cette méthode.
+* il convient de faire appel à la méthode `regle` dans la méthode `mouvement` avant de mettre à jour la position de chaque animal.
+
+#### (2) programmer la méthode ̀alignement` :
+* cette méthode renvoie un vecteur permettant aux animaux moyennement proches de synchroniser leurs vitesses
+* la force renvoyée est la moyenne des vitesses des animaux moyennement proches 
+* si cette force est trop grande, sa norme est ramenée à Animal.force_max
+* tester cette méthode en ajustant le paramètre `align` dans l'appel à la méthode `regles`.
+
+#### (3) programmer la méthode ̀cohesion` :
+* cette méthode renvoie un vecteur permettant aux animaux distants de se rapprocher.
+* tester cette méthode en ajustant le paramètre `align` dans l'appel à la méthode `regles`.
+
+### e. ajuster les valeurs des différents paramètres, de manière à optimiser le mouvement de l'essaim !
 
 
 
