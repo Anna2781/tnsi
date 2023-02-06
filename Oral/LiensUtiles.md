@@ -1,2 +1,2 @@
 ## BlockChain
-[Simulateur](https://andersbrownworth.com/blockchain/block)
+[Simulateur](https://andersbrownworth.com/blockchain/hash)
