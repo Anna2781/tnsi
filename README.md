@@ -22,3 +22,4 @@
 
 #### Sujets d'annales
 * [2022-Amérique du Nord - jour1](https://fabricenativel.github.io/officiels/Annales/EE/2022/22-NSIJ1AN1.pdf)
+* [2022-Polynésie - jour1](https://pixees.fr/informatiquelycee/term/suj_bac/2022/sujet_01.pdf)
