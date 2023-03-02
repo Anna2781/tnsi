@@ -59,11 +59,11 @@ def animate_ball(nuee):
         # Test des voisins : enlever les triples guillemets pour le bloc ci-dessous
         if AFFICHE_VOISINS :
             for i in range(1, len(nuee.essaim)):
-                if i in nuee.voisins_separation[0] :
+                if i in nuee.voisins_proches[0] :
                     canvas.itemconfig(sprites[i], fill='red', outline = 'red', width = 1)
-                elif i in nuee.voisins_alignement[0]:
+                elif i in nuee.voisins_moyens[0]:
                     canvas.itemconfig(sprites[i], fill='blue', outline = 'blue', width = 1) # color
-                elif i in nuee.voisins_cohesion[0] :
+                elif i in nuee.voisins_distants[0] :
                     canvas.itemconfig(sprites[i], fill='magenta', outline = 'magenta', width = 1)
                 else :
                     canvas.itemconfig(sprites[i], fill='black', outline="Black", width=1)
