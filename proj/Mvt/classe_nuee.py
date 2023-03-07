@@ -101,9 +101,9 @@ class Nuee:
 
     def regles(self, indice_animal, sep=5, align=0.5, coh=0.01):
         animal = self.essaim[indice_animal]
-        if self.voisins_separation[indice_animal] !=[] :
+        if self.voisins_proches[indice_animal] !=[] :
             animal.force.somme(self.separation(indice_animal).prodk(sep))
-        elif self.voisins_alignement[indice_animal] !=[]:
+        elif self.voisins_moyens[indice_animal] !=[]:
             animal.force.somme(self.alignement(indice_animal).prodk(align))
-        elif self.voisins_cohesion[indice_animal] !=[]:
+        elif self.voisins_distants[indice_animal] !=[]:
             animal.force.somme(self.cohesion(indice_animal).prodk(coh))
