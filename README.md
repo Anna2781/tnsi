@@ -20,7 +20,9 @@
 - [de multiples en diviseurs](https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/thfruchart/tnsi/main/proj/MultiDiv-projet.ipynb)
 - [Mouvement de masse](proj/Mvt)
 
-#### Sujets d'annales
-* [2022-Amérique du Nord - jour1](https://fabricenativel.github.io/officiels/Annales/EE/2022/22-NSIJ1AN1.pdf)
-* [2022-Polynésie - jour1](https://pixees.fr/informatiquelycee/term/suj_bac/2022/sujet_01.pdf)
-* [2023-Polynésie - jour1](nsi23poj1.pdf)
+#### révisions ECRIT
+* [Sujets d'annales](https://fabricenativel.github.io/index_annales/)
+* tables de routage
+  * [sujet](07/EXOS_routage.pdf)
+  * [correction](07/CORR%20Tables%20de%20routage.pdf)
+
